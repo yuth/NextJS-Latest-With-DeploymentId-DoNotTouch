@@ -27,7 +27,7 @@ export default function Page({ time, deploymentId, buildTimestamp }) {
 
   return (
     <TestResult passed={true} title={title}>
-      <h3> After Skew protection enabled first build</h3>
+      <h3> After Skew protection enabled second build</h3>
       <div>
         <p>
           <strong>Current Server Time:</strong> <b>{time}</b>
